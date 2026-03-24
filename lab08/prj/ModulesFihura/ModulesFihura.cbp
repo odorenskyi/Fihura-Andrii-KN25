@@ -34,6 +34,10 @@
 				</Linker>
 			</Target>
 		</Build>
+		<Compiler>
+			<Add directory="C:/Users/Fenik/Desktop/Home work/2 SEMESTR/BMTP/Lab/lab №8/Fihura-Andrii-KN25/lab08/prj" />
+		</Compiler>
+		<Unit filename="../../TestSuite/test_driver.cpp" />
 		<Unit filename="main.cpp">
 			<Option compilerVar="CC" />
 		</Unit>
