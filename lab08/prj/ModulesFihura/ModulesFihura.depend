@@ -1,5 +1,17 @@
 # depslib dependency file v1.0
-1774369504 source:c:\users\fenik\desktop\home work\2 semestr\bmtp\lab\lab ¹8\fihura-andrii-kn25\lab08\prj\modulesfihura\main.cpp
+1776151623 source:c:\users\fenik\desktop\home work\2 semestr\bmtp\lab\lab ¹8\fihura-andrii-kn25\lab08\prj\modulesfihura\main.cpp
 	<cmath>
 	<stdexcept>
+	<string>
+
+1774371116 source:c:\users\fenik\desktop\home work\2 semestr\bmtp\lab\lab ¹8\fihura-andrii-kn25\lab08\testsuite\test_driver.cpp
+	<iostream>
+	<iomanip>
+	<cmath>
+	<string>
+	<exception>
+	"ModulesFihura.h"
+
+1774369501 c:\users\fenik\desktop\home work\2 semestr\bmtp\lab\lab ¹8\fihura-andrii-kn25\lab08\testsuite\modulesfihura.h
+	<string>
 
