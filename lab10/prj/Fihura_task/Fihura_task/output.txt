@@ -1,0 +1,17 @@
+Author: Fihura Andrii
+University: CNTU
+City: Kropyvnytskyi
+Country: Ukraine
+
+Word length: 12
+Word not found in poem
+
+===== Task 10.2 =====
+’ай щастить у ¬аш≥й хат≥, мамо
+Date and time: Tue May 05 16:15:18 2026
+
+
+===== Task 10.3 =====
+s_calculation error: x - y must be > 0
+Number b: 12
+Binary code of b: 1100

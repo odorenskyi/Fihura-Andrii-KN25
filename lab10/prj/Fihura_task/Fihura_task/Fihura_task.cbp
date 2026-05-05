@@ -2,26 +2,26 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="TestDriver" />
+		<Option title="Fihura_task" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="Debug">
-				<Option output="bin/Debug/TestDriver" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Debug/Fihura_task" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
-					<Add directory="../../../../lab08/prj/ModulesFihura" />
+					<Add directory="C:/Users/Fenik/Desktop/Home work/2 SEMESTR/BMTP/Lab/lab №8/Fihura-Andrii-KN25/lab08/prj/ModulesFihura" />
 				</Compiler>
 				<Linker>
 					<Add library="../../../../lab08/prj/ModulesFihura/bin/Debug/libModulesFihura.a" />
-					<Add directory="../../../../lab08/prj/ModulesFihura/bin/Debug" />
+					<Add directory="C:/Users/Fenik/Desktop/Home work/2 SEMESTR/BMTP/Lab/lab №8/Fihura-Andrii-KN25/lab08/prj/ModulesFihura/bin/Debug" />
 				</Linker>
 			</Target>
 			<Target title="Release">
-				<Option output="bin/Release/TestDriver" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Release/Fihura_task" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Release/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -38,6 +38,8 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="main.cpp" />
-		<Extensions />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
 	</Project>
 </CodeBlocks_project_file>
