@@ -1,0 +1,6 @@
+Start text
+
+===== Task 10.3 =====
+s_calculation(5, 2, 4) = 4.8775
+Number b: 0
+Binary code of b: 0

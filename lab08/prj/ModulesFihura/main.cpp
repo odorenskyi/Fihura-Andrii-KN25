@@ -1,6 +1,11 @@
 #include <cmath>
 #include <stdexcept>
 #include <string>
+
+#include <fstream>
+#include <ctime>
+#include <sstream>
+
 using namespace std;
 
 double s_calculation(double x, double y, double z)
@@ -142,4 +147,106 @@ int process_number_by_bit12(int n)
         return count_binary_zeros(n);
     else
         return count_binary_ones(n);
+}
+
+//Функція задачі 10.1
+
+void task_10_1(const std::string& inputFile, const std::string& outputFile)
+{
+    ifstream fin(inputFile);
+    ofstream fout(outputFile);
+
+    if (!fin.is_open())
+        throw runtime_error("Cannot open input file");
+
+    if (!fout.is_open())
+        throw runtime_error("Cannot open output file");
+
+    string word;
+    fin >> word;
+
+    // Авторська інформація
+    fout << "Author: Fihura Andrii\n";
+    fout << "University: CNTU\n";
+    fout << "City: Kropyvnytskyi\n";
+    fout << "Country: Ukraine\n\n";
+
+    // Перевірка: слово чи знак
+    if (word.length() == 1 && ispunct(word[0]))
+    {
+        fout << "This is punctuation mark\n";
+    }
+    else
+    {
+        fout << "Word length: " << word.length() << endl;
+
+        string poem = "Хай щастить у Вашій хаті, мамо";
+        if (poem.find(word) != string::npos)
+            fout << "Word found in poem\n";
+        else
+            fout << "Word not found in poem\n";
+    }
+
+    fin.close();
+    fout.close();
+}
+
+//функція задачі 10.2
+void task_10_2(const std::string& outputFile)
+{
+    ofstream fout(outputFile, ios::app);
+
+    if (!fout.is_open())
+        throw runtime_error("Cannot open output file");
+
+    time_t now = time(0);
+    char* dt = ctime(&now);
+
+    fout << "\n===== Task 10.2 =====\n";
+    fout << "Хай щастить у Вашій хаті, мамо\n";
+    fout << "Date and time: " << dt << endl;
+
+    fout.close();
+}
+
+//функція задачі 10.3
+std::string to_binary(unsigned int b)
+{
+    if (b == 0)
+        return "0";
+
+    std::string result = "";
+
+    while (b > 0)
+    {
+        result = char('0' + b % 2) + result;
+        b /= 2;
+    }
+
+    return result;
+}
+
+void task_10_3(const std::string& outputFile, double x, double y, double z, unsigned int b)
+{
+    ofstream fout(outputFile, ios::app);
+
+    if (!fout.is_open())
+        throw runtime_error("Cannot open output file");
+
+    fout << "\n===== Task 10.3 =====\n";
+
+    try
+    {
+        double s = s_calculation(x, y, z);
+        fout << "s_calculation(" << x << ", " << y << ", " << z << ") = " << s << endl;
+    }
+    catch (const exception& e)
+    {
+        fout << "s_calculation error: " << e.what() << endl;
+    }
+
+    fout << "Number b: " << b << endl;
+    fout << "Binary code of b: " << to_binary(b) << endl;
+
+    fout.close();
 }
