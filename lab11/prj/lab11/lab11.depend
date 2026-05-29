@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1743445502 source:c:\users\fenik\desktop\home work\2 semestr\bmtp\lab\lab ¹8\fihura-andrii-kn25\lab11\prj\lab11\main.cpp
+	<iostream>
+
+1780070779 source:c:\users\fenik\desktop\home work\2 semestr\bmtp\lab\lab ¹8\fihura-andrii-kn25\lab11\prj\lab11\registry.cpp
+	"struct_type_project_5.h"
+
+1780070767 c:\users\fenik\desktop\home work\2 semestr\bmtp\lab\lab ¹8\fihura-andrii-kn25\lab11\prj\lab11\struct_type_project_5.h
+	<iostream>
+	<string>
+
