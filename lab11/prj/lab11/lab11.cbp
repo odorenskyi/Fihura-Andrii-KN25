@@ -2,7 +2,7 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="lab11" />
+		<Option title="prj_5_Fihura" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
@@ -33,6 +33,8 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="main.cpp" />
+		<Unit filename="registry.cpp" />
+		<Unit filename="struct_type_project_5.h" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>
