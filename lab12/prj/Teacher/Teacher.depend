@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1780398212 source:c:\users\fenik\desktop\home work\2 semestr\bmtp\lab\lab ¹8\fihura-andrii-kn25\lab12\prj\teacher\classlab12_fihura.cpp
+	"ClassLab12_Fihura.h"
+
+1780398195 c:\users\fenik\desktop\home work\2 semestr\bmtp\lab\lab ¹8\fihura-andrii-kn25\lab12\prj\teacher\classlab12_fihura.h
+
+1780400696 source:c:\users\fenik\desktop\home work\2 semestr\bmtp\lab\lab ¹8\fihura-andrii-kn25\lab12\prj\teacher\main.cpp
+	<iostream>
+	<fstream>
+	<sstream>
+	<string>
+	<cmath>
+	"ClassLab12_Fihura.h"
+

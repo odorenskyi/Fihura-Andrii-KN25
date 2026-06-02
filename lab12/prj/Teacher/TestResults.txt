@@ -1,0 +1,11 @@
+UNIT TEST REPORT
+
+GET_RADIUS Expected=5 Actual=5 Result=PASS
+GET_RADIUS Expected=7 Actual=7 Result=PASS
+GET_RADIUS Expected=3 Actual=3 Result=PASS
+GET_LENGTH Expected=10 Actual=10 Result=PASS
+GET_LENGTH Expected=15 Actual=15 Result=PASS
+GET_LENGTH Expected=20 Actual=20 Result=PASS
+GET_AREA Expected=314.159 Actual=314.159 Result=PASS
+GET_AREA Expected=62.8318 Actual=62.8319 Result=PASS
+GET_AREA Expected=75.3982 Actual=75.3982 Result=PASS
